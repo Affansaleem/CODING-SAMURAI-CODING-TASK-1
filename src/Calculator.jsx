@@ -1,10 +1,11 @@
 import { useState } from "react";
 import "./Button.css";
+import "./Calculator.css";
 const Calculator = () => {
   const [input, setInput] = useState("");
 
   const handleButtonClick = (value) => {
-    setInput((prevInput) => prevInput + value);
+    setInput((input) => input + value);
   };
 
   const clearInput = () => {
@@ -24,7 +25,7 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator p-4 bg-black rounded-lg w-64 mx-auto my-12">
+    <div className="calculator-background p-4 bg-black rounded-lg w-64 mx-auto my-12">
       <input
         type="text"
         style={{ fontFamily: "Roboto, sans-serif" }}
