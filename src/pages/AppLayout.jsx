@@ -1,4 +1,4 @@
-import Calculator from "./Calculator";
+import Calculator from "../features/Calculator";
 import Footer from "./Footer";
 import Header from "./Header";
 

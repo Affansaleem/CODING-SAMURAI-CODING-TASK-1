@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./Button.css";
-import "./Calculator.css";
+import "../styles/Button.css";
+import "../styles/Calculator.css";
 const Calculator = () => {
   const [input, setInput] = useState("");
 
